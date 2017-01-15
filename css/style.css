@@ -111,3 +111,12 @@ img{max-width: 100%; height: auto; display:block; }
 	margin: 0 auto;
 	width: 90%;
 }
+.contact .adress{
+	text-align: left;
+}
+.contact i{
+	margin-right: 10px;
+}
+.contact .upper{
+	text-transform: uppercase;
+}
