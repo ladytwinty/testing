@@ -99,7 +99,8 @@ img{max-width: 100%; height: auto; display:block; }
 }
 .contact{
 	background-color: #ecf0f1;
-	padding-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 .contact h2{
 	margin-top: 0;
@@ -113,6 +114,7 @@ img{max-width: 100%; height: auto; display:block; }
 }
 .contact .adress{
 	text-align: left;
+	padding:0;
 }
 .contact i{
 	margin-right: 10px;
@@ -121,7 +123,7 @@ img{max-width: 100%; height: auto; display:block; }
 	text-transform: uppercase;
 }
 .contact .btn{
-	padding: 7px 30px;
+	padding: 7px 25px;
 }
 footer{
 	background-color: #2d3e50;
