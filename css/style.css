@@ -1,7 +1,7 @@
 .page{
-	background-image: url(../img/bg.png);
+	
 	background-repeat: repeat-y;
-	background-size: contain;
+	background-size: 
 	font-size: 13px;
 	font-family: 'Lato', sans-serif;
 	color: #444444;
@@ -56,7 +56,7 @@ img{max-width: 100%; height: auto; display:block; }
 }
 .btn{
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 12px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	background:#1bbc9b;
@@ -122,4 +122,10 @@ img{max-width: 100%; height: auto; display:block; }
 }
 .contact .btn{
 	padding: 7px 30px;
+}
+footer{
+	background-color: #2d3e50;
+	color: #fff;
+	padding: 35px 0 25px 40px;
+	
 }
