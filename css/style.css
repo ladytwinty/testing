@@ -58,7 +58,7 @@ img{max-width: 100%; height: auto; display:block; }
 	text-transform: uppercase;
 	font-size: 13px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	background:#1bbc9b;
 	color:#ffffff;
 	border: 0;
@@ -119,4 +119,7 @@ img{max-width: 100%; height: auto; display:block; }
 }
 .contact .upper{
 	text-transform: uppercase;
+}
+.contact .btn{
+	padding: 7px 30px;
 }
