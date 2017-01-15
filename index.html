@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap2</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="page"><!--контейнер всей страницы--> 
+	<div class="menu"><!--контейнер с лого и меню--> 
+		<nav class="navbar navbar-default">
+	  	<div class="container heading">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>        
+		      </button>
+		      <a class="navbar-brand href="#"><img src="img/logo.png" class="img-responsive" alt="Logo"></a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">home</a></li>
+		        <li><a href="#">portfolio</a></li>
+		        <li><a href="#">about</a></li>
+		        <li><a href="#">contact</a></li>
+		      </ul>
+		    </div>
+	    </div><!--container -->
+		</nav>
+	</div><!--контейнер с лого и меню--> 
+
+	<div class="mainpic"><!--контейнер с главной картинкой--> 
+		<div class="container-fluid text-center">
+			<div class="jumbotron">
+		  <h1>We Build <span class="bold700">Brand</span></h1>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Ut enim ad minim veniam. Ut enim ad minim veniam.</p>
+		  <p><a class="btn" href="#" role="button">learn more</a></p>
+		</div>
+		</div>
+	</div><!--контейнер с главной картинкой-->
+
+	<!--контейнер с 3 секциями (портфолио, о нас и контакты-->
+	<div class="container main"><!--портфолио-->
+		<div class="portfolio text-center">
+			<h2>Portfolio</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+			<a class="btn" href="#" role="button">all</a>
+			<a class="btn" href="#" role="button">web degign</a>
+			<a class="btn" href="#" role="button">graphic design</a>
+			<a class="btn" href="#" role="button">flat design</a>
+		</div>
+
+		<div class="row grid">
+		  <div class="col-sm-3 col-xs-6"><img src="img/1.png" alt=""></div>
+		  <div class="col-sm-3 col-xs-6"><img src="img/2.png" alt=""></div>
+		  <div class="col-sm-3 col-xs-6"><img src="img/3.png" alt=""></div>
+		  <div class="col-sm-3 col-xs-6"><img src="img/4.png" alt=""></div>
+		</div>
+
+		<div class="row grid">
+		  <div class="col-sm-3 col-xs-6"><img src="img/5.png" alt=""></div>
+		  <div class="col-sm-3 col-xs-6"><img src="img/6.png" alt=""></div>
+		  <div class="col-sm-3 col-xs-6"><img src="img/7.png" alt=""></div>
+		  <div class="col-sm-3 col-xs-6"><img src="img/8.png" alt=""></div>
+		</div>
+
+	</div><!--портфолио-->	
+		
+	<div class="container text-center"><!--о нас-->
+		<div class="about">
+		  <h2>About us</h2>
+		  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		  <div class="row">
+			  <div class="col-sm-4 col-xs-12">
+			  	<img src="img/12.png" alt="">
+			  	<p>Melannie Doe</p>
+			  	<p>Project Manager</p>
+			  	<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamc</p>
+			  </div>
+
+			  <div class="col-sm-4 col-xs-12">
+				<img src="img/13.png" alt="">
+				<p>Melannie Doe</p>
+			  	<p>Project Manager</p>
+			  	<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamc</p>
+			  </div>
+
+			  <div class="col-sm-4 col-xs-12">
+			  	<img src="img/14.jpg" alt="">
+			  	<p>Melannie Doe</p>
+			  	<p>Project Manager</p>
+			  	<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamc</p>
+			  </div>
+		  </div>
+		</div>
+	</div><!--о нас-->
+
+	<div class="container text-center"><!--контакты-->
+		<div class="contact">
+			<h2>Contact</h2>
+		    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		  	<div class="row">
+		  	<div class="col-sm-6 col-xs-6">
+			 	<form class="form-inline" role="form">
+			 		<div class="form-group data">			 		
+			 			<input type="text" class="form-control" placeholder="Your name">
+			 		</div>
+			 		<div class="form-group">
+			 			<input type="email" class="form-control" placeholder="Your Email">
+			 		</div>
+			 	</form>
+
+			 	<form class="form message" role="form">
+			 	<textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+			 	</form>	
+			 </div>
+			 <div class="col-sm-6 col-xs-6">
+			 	<p>gnjgjgyhjghj</p>
+			</div>
+			 </div>
+
+		</div>
+	</div><!--контакты-->
+	<!--контейнер с 3 секциями (портфолио, о нас и контакты-->
+
+<footer></footer>
+
+</div><!--контейнер всей страницы--> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
