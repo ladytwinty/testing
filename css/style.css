@@ -77,8 +77,16 @@ img{max-width: 100%; height: auto; display:block; }
 	box-shadow: none;
 	transition: .5s;
 }
-.portfolio a{
+.portfolio .btn{
 	margin-right: 15px;
+}
+.main .pic{
+	padding: 10px;
+	display: block;
+	
+}
+.main .pic:hover{
+	opacity: 0.5;
 }
 .main .grid{
 	margin-top: 45px;
