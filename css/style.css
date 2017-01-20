@@ -43,16 +43,23 @@ img{max-width: 100%; height: auto; display:block; }
 	color: #fff;
 	min-height: 453px;
 }
-.jumbotron h1, p{
+.jumbotron h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+	margin-top: 4%;
 }
 .jumbotron p{
 	font-size: 13px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
 .jumbotron .bold700{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+.jumbotron .fa{
+	margin-top: 25px;
+	font-size: 3.5em;
 }
 .btn{
 	text-transform: uppercase;
@@ -104,6 +111,10 @@ img{max-width: 100%; height: auto; display:block; }
 .about img{
 	display: block;
 	margin:0 auto;
+}
+.about p{
+	padding: 0 20%;
+	line-height: 20px;
 }
 .contact{
 	background-color: #ecf0f1;
