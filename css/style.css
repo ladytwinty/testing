@@ -126,9 +126,6 @@ img{max-width: 100%; height: auto; display:block; }
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
-.form-group{
-
-}
 textarea{
 	width:100%;
 }
@@ -138,8 +135,11 @@ textarea{
 .form-group{
 	margin-right: 35px;
 }
-.contact .data{
-	margin-left: 30px;
+.adresstop{
+	padding-top: 20px;
+}
+.contact input [type="text"]{
+	width: 100%;
 }
 .contact .message{
 	margin:15px 10px 0 30px;
