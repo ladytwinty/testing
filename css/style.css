@@ -87,6 +87,9 @@ img{max-width: 100%; height: auto; display:block; }
 .portfolio .btn{
 	margin-right: 15px;
 }
+.pic:hover{
+	opacity: 0.3;
+}
 .main .pic{
 	padding: 10px;
 	display: block;
@@ -104,6 +107,9 @@ img{max-width: 100%; height: auto; display:block; }
 	color: #fff;
 	padding-top: 20px;
 }
+.about .row{
+	margin-top: 45px;
+}
 .about img{
 	display: block;
 	margin:0 auto;
@@ -111,17 +117,30 @@ img{max-width: 100%; height: auto; display:block; }
 .about p{
 	padding: 0 20%;
 	line-height: 20px;
+	color: #000;
 }
 .contact{
 	background-color: #ecf0f1;
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
+.form-group{
+
+}
+textarea{
+	width:100%;
+}
 .contact h2{
 	margin-top: 0;
 }
+.form-group{
+	margin-right: 35px;
+}
+.contact .data{
+	margin-left: 30px;
+}
 .contact .message{
-	margin: 0 auto;
+	margin:15px 10px 0 30px;
 	width: 90%;
 }
 .contact .adress{
@@ -138,7 +157,8 @@ img{max-width: 100%; height: auto; display:block; }
 	text-transform: uppercase;
 }
 .contact .btn{
-	padding: 7px 25px;
+	padding: 8px 30px;
+	float:right;
 }
 footer{
 	background-color: #2d3e50;
