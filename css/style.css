@@ -113,10 +113,11 @@ img{max-width: 100%; height: auto; display:block; }
 }
 .about img{
 	display: block;
+	width: 70%;
 	margin:0 auto;
 }
 .about .white p{
-	padding: 0 25%;
+	padding: 0 18%;
 	line-height: 20px;
 	color: #000;
 }
