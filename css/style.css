@@ -12,8 +12,8 @@ img{max-width: 100%; height: auto; display:block; }
 	padding-top: 30px;
 }
 .navbar-brand img{
-	position: absolute;
-	bottom: 6%;
+	position: relative;
+	bottom: 100%;
 }
 
 .navbar-default{
