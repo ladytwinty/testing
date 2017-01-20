@@ -13,7 +13,7 @@ img{max-width: 100%; height: auto; display:block; }
 }
 .navbar-brand img{
 	position: relative;
-	bottom: 100%;
+	bottom: 70%;
 }
 
 .navbar-default{
@@ -90,8 +90,8 @@ img{max-width: 100%; height: auto; display:block; }
 .main .grid{
 	margin-top: 45px;
 	margin-bottom: 50px;
-	margin-left: 55px;
-	margin-right: 55px;
+	margin-left: 65px;
+	margin-right: 65px;
 	box-sizing: border-box;
 }
 .grid img{
@@ -108,7 +108,8 @@ img{max-width: 100%; height: auto; display:block; }
 	padding:0;
 }
 .about .row{
-	margin-top: 45px;
+	margin: 4% 10% 0 10%;
+	box-sizing: border-box;
 }
 .about img{
 	display: block;
