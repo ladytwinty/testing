@@ -11,12 +11,11 @@ img{max-width: 100%; height: auto; display:block; }
 .menu{
 	padding-top: 30px;
 }
-.navbar-brand{
-	padding:0;
+.navbar-brand img{
+	position: absolute;
+	bottom: 6%;
 }
-.heading{
-	padding:0;
-}
+
 .navbar-default{
 	background-color: transparent;
 	border:0;
@@ -90,13 +89,12 @@ img{max-width: 100%; height: auto; display:block; }
 .pic:hover{
 	opacity: 0.3;
 }
-.main .pic{
-	padding: 10px;
-	display: block;
-}
 .main .grid{
 	margin-top: 45px;
 	margin-bottom: 50px;
+	margin-left: 55px;
+	margin-right: 55px;
+	box-sizing: border-box;
 }
 .grid img{
 	display: block;
@@ -106,6 +104,10 @@ img{max-width: 100%; height: auto; display:block; }
 	background-color: #16a086;
 	color: #fff;
 	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.about .white{
+	padding:0;
 }
 .about .row{
 	margin-top: 45px;
@@ -114,8 +116,8 @@ img{max-width: 100%; height: auto; display:block; }
 	display: block;
 	margin:0 auto;
 }
-.about p{
-	padding: 0 20%;
+.about .white p{
+	padding: 0 25%;
 	line-height: 20px;
 	color: #000;
 }
