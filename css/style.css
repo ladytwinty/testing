@@ -126,9 +126,11 @@ img{max-width: 100%; height: auto; display:block; }
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
-textarea{
-	width:100%;
+.contact .message{
+	margin:0 !important;
+	padding-left:15px;
 }
+
 .contact h2{
 	margin-top: 0;
 }
